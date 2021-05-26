@@ -1,3 +1,20 @@
+Tag 2: Smart Contracts
+
+Aufgabe 1: Einstieg in Truffle
+Aufgabe 2: Erster eigener Smart Contract
+Aufgabe 3: Testen von Smart Contracts
+Aufgabe 4: Komplexeres Migrationsbeispiel
+Aufgabe 5: Debugging
+Aufgabe 6: EthBnB
+Aufgabe 7: Pet Shop
+
+Smart contract types
+ 
+1. ethereum
+2. fabric
+3. tangle
+
+
 Useful links:
 https://www.trufflesuite.com/docs/truffle/quickstart
 Smart contract in Python link:
@@ -6,7 +23,7 @@ https://blog.lamden.io/smart-contracting-with-python-2af233620dca
 [Part 1/2] Deploy a Smart Contract on Ethereum with Python, Truffle and web3py | Codementor
 [Part 2/2] Persist data to the Ethereum blockchain using Python, Truffle, and Ganache | Codementor
 
-Aufgabe 1
+Aufgabe 1 Lösung:
 1.Initialiseren des Projekts.
 apt-get update
 apt install npm
@@ -15,7 +32,7 @@ mkdir metacoin
 cd metacoin
 truffle unbox metacoin
 
-Aufgabe 2
+Aufgabe 2 Lösung:
 cd /hello-solidity
 https://www.trufflesuite.com/ganache
 npm install -g ganache-cli
@@ -50,7 +67,7 @@ app
 app.sayHello()
 .exit
 
-Aufgaben3
+Aufgaben3 Lösung:
 1.	Initalisieren des Projekts
 cd ..
 /Metacoin# mkdir Flohmarkt
@@ -82,7 +99,8 @@ touch TestFlohmarkt
 nano TestFlohmarkt
 Truffle test
 
-Aufgaben 3 Unser Test ist fehlgeschlagen!
+Aufgaben 3 Lösung: 
+Unser Test ist fehlgeschlagen!
 Schauen wir uns den Smart Contract genauer an, wo mögliche Fehler sein könnten.
 Bei genauerer Betrachtung sehen wir, dass das Problem in der Rückkehranweisung unser addNewItem-Funktion liegt:
 

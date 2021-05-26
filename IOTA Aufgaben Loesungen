@@ -1,19 +1,28 @@
+Tag 0:The Node
+Tag 1: IOTA
+
+Aufgabe 1: Einstieg in die IOTA API
+Aufgabe 2: Nachricht ins Tangle-Netz verschicken
+Aufgabe 3: Mehrere leeren Nachrichten auf einmal verschicken (Bundle mit mehreren Nachrichten)
+Aufgabe 4: IOTA-Tokens verschicken
+Aufgabe 5: Eigenen IRI-Node starten
+JS API: https://github.com/iotaledger/iota.js#api-reference
+
 Useful Links:
 https://docs.iota.org/docs/client-libraries/1.0/getting-started/js-quickstart (Java)
 https://docs.iota.org/docs/core/1.0/getting-started/get-started-python (Python)
 
-
-Aufgabe2: 
+Aufgabe 2 Lösung: 
 Send a "hello world" transaction in Python 
 https://docs.iota.org/docs/core/1.0/tutorials/python/send-your-first-bundle
 Ergebnis: address eingeben auf https://comnet.thetangle.org/
 
-Aufgabe4:
+Aufgabe 4 Lösung:
 Transfer IOTA tokens between addresses in js:
 https://docs.iota.org/docs/getting-started/1.1/transfer-tokens/transfer-iota-tokens
 
 ## Bonus: Wallet/Gesamtbilanz anzeigen
-Aufgaben5:
+Aufgaben 5 Lösung:
 IOTA reference implementation
 https://docs.iota.org/docs/node-software/0.1/iri/how-to-guides/quickstart?q=iri&highlights=IRI
 docker run -d --net=host --name iota-node -v iota.ini:/iri/iota.ini iotaledger/iri:latest

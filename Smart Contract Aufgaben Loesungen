@@ -1,11 +1,13 @@
 Useful Links:
 https://docs.iota.org/docs/core/1.0/getting-started/get-started-python
 
-Aufgabe4: Transfer IOTA tokens between addresses in js:
+Aufgabe4:
+
+1. Transfer IOTA tokens between addresses in js:
 https://docs.iota.org/docs/getting-started/1.1/transfer-tokens/transfer-iota-tokens
 
 ## Bonus: Wallet/Gesamtbilanz anzeigen
-Aufgaben5
+Aufgaben5:
 https://docs.iota.org/docs/node-software/0.1/iri/how-to-guides/quickstart?q=iri&highlights=IRI
 docker run -d --net=host --name iota-node -v iota.ini:/iri/iota.ini iotaledger/iri:latest
 

@@ -1,0 +1,96 @@
+Useful links:
+https://www.trufflesuite.com/docs/truffle/quickstart
+Smart contract in Python link:
+Interacting With Smart Contract On Local Ethereum Blockchain (kimsereylam.com)
+https://blog.lamden.io/smart-contracting-with-python-2af233620dca
+[Part 1/2] Deploy a Smart Contract on Ethereum with Python, Truffle and web3py | Codementor
+[Part 2/2] Persist data to the Ethereum blockchain using Python, Truffle, and Ganache | Codementor
+
+Aufgabe 1
+1.Initialiseren des Projekts.
+apt-get update
+apt install npm
+npm install -g truffle
+mkdir metacoin
+cd metacoin
+truffle unbox metacoin
+
+Aufgabe 2
+cd /hello-solidity
+https://www.trufflesuite.com/ganache
+npm install -g ganache-cli
+ganache-cli (auf neuen Terminal )
+npm install -g solc truffle 
+
+2.	Konfiguration von Truffle
+nano truffle-config.js (Wie Aufgaben2 schreiben Konfiguration von Truffle)
+
+3.	Erstellen des Smart Contracts
+cd contract
+touch hello.sol(Erstellen des Smart Contracts)
+nano hello.sol (shreib wie unten(Aufgaben2, Kompilieren und Deployment des SM)):
+
+4.	Kompilieren und Deployment des Smart Contracts
+cd migrations
+touch 2_deploy_contracts.js
+nano 2_deploy_contracts.js
+
+5.	Deployment
+truffle compile (schreiben in solidity wie AUfgaben 2 Deklaration der Variablen)
+cd /build/contacts
+ls (zwei JSON-Dateien befinden)
+
+6.	 Smart Contract auf der Blockchain verteilen (Migrating with Ganache)
+truffle migrate
+
+7.	Interaktionen mit dem Smart Contract
+truffle console
+ let app = await Hello.deployed()
+app
+app.sayHello()
+.exit
+
+Aufgaben3
+1.	Initalisieren des Projekts
+cd ..
+/Metacoin# mkdir Flohmarkt
+cd Flohmarkt
+truffle init
+nano ruffle-config.js 
+
+2. Erstellung des Smart Contracts und Migration
+
+cd contracts
+touch Flohmarkt.sol
+nano Flohmarkt (schreib code Flohmarkt.sol von Aufgaben 3 )
+
+cd migrations
+touch 2_deploy_contracts.js 
+nano 2_deploy_contracts.js  (schreib code 2_deploy_contracts.js von Aufgaben 3  )
+
+truffle compile
+cd /build/contacts
+ls (zwei JSON-Dateien befinden)
+
+truffle migrate
+
+3.	Testen von Smart Contracts
+Testen mit Solidity
+
+cd test
+touch TestFlohmarkt
+nano TestFlohmarkt
+Truffle test
+
+Aufgaben 3 Unser Test ist fehlgeschlagen!
+Schauen wir uns den Smart Contract genauer an, wo mögliche Fehler sein könnten.
+Bei genauerer Betrachtung sehen wir, dass das Problem in der Rückkehranweisung unser addNewItem-Funktion liegt:
+
+nano Flohmarkt.sol
+test truffle 
+Testen mit Javascript
+test-
+cd /Flohmarkt/test
+rm TestFlohmarkt.sol
+touch flohmarkt.js
+nano flohmarkt.js (schreiben Testfalls wie Aufgaben 3 flohmarkt.js)
